@@ -85,6 +85,7 @@ plt.xlabel('Category')
 plt.ylabel('Total Sales')
 plt.savefig("chart1_category_sales.png")
 plt.show()
+plt.close()
 
 # 2. Sales Share by Category (Pie)
 plt.figure(figsize=(6, 6))
@@ -93,6 +94,7 @@ plt.pie(category_sales, labels=category_sales.index,
 plt.title("Sales Share by Category")
 plt.savefig("chart2_pie.png")
 plt.show()
+plt.close()
 
 # 3. Yearly Sales Trend (Line)
 plt.figure(figsize=(8, 5))
@@ -102,6 +104,7 @@ plt.xlabel("Year")
 plt.ylabel("Total Sales")
 plt.savefig("chart3_yearly_trend.png")
 plt.show()
+plt.close()
 
 # 4. Region-wise Total Sales (Seaborn)
 plt.figure(figsize=(8, 5))
@@ -110,6 +113,7 @@ sns.barplot(x='region', y='sales', data=region_sales, palette='Set2')
 plt.title("Region-wise Total Sales")
 plt.savefig("chart4_region_sales.png")
 plt.show()
+plt.close()
 
 
 
