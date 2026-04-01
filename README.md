@@ -1,9 +1,9 @@
-#  Superstore Sales Analysis
+# Superstore Sales Analysis
 
-##  Project Overview
-Python se Superstore dataset ka complete sales analysis.
+## Project Overview
+A complete sales analysis of the Superstore dataset using Python.
 
-##  Libraries Used
+## Libraries Used
 - Pandas
 - NumPy
 - Matplotlib
@@ -15,7 +15,8 @@ Python se Superstore dataset ka complete sales analysis.
 - Yearly Sales Trend (Line Chart)
 - Region-wise Total Sales (Bar Chart)
 
-##  Key Insights
-- Total Sales aur Profit calculate kiya
-- Best Category aur Region find kiya
+## Key Insights
+- Calculated Total Sales and Profit
+- Found Best Category and Region
 - Top 5 Products by Sales
+
